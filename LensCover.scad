@@ -1,5 +1,10 @@
 $fn = 100;
 
+DIA_EXT = 75.5; // External diameter of the lens
+DIA_INT = 72; // Internal diameter of the lens
+WALL_THICKNESS = 2;
+CAP_HEIGHT = 20;
+
 module lens_cover(r, ri, h, t){
     difference(){
         cylinder(r=r+t, h=h);
