@@ -1,4 +1,4 @@
-use <LensCover.scad>
+use <LensHoodCover.scad>
 
 $fn = 100;
 

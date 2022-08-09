@@ -1,8 +1,8 @@
-use <LensCover.scad>
+use <LensHoodCover.scad>
 
 $fn = 100;
 
-DIA_EXT = 78; // External diameter of the lens
+DIA_EXT = 78.5; // External diameter of the lens
 DIA_INT = 74; // Internal diameter of the lens
 WALL_THICKNESS = 2;
 CAP_HEIGHT = 25;
